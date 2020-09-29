@@ -1,3 +1,10 @@
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+console.log(ScrollTrigger);
+
 // Nav Link Events
 const navLinks = document.querySelectorAll("a.nav-link");
 navLinks.forEach(a => {
@@ -23,3 +30,5 @@ divBtns.forEach( btn => {
     window.focus();
   });
 });
+
+// /usr/local/lib/node_modules
